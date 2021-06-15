@@ -18,3 +18,4 @@ jobs:
         should_package: false
         should_run: false
         should_viz: false
+        versobse: true
