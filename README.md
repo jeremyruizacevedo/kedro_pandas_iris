@@ -119,6 +119,3 @@ To automatically strip out all output cell contents before committing to `git`, 
 ## Package your Kedro project
 
 [Further information about building project documentation and packaging your project](https://kedro.readthedocs.io/en/stable/03_tutorial/05_package_a_project.html)
-=======
-# kedro_pandas_iris
-Get starde with kedro with pandas iris dataframe. Additional, use github actions
