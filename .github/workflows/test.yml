@@ -11,6 +11,7 @@ jobs:
     - name: Run test
       uses: WaylonWalker/kedro-action@1.0.3
       with:
+        python_version: '3.7.6'
         should_lint: false
         should_test: true
         should_build_docs: false
