@@ -1,17 +1,17 @@
 Collecting pytest-html
   Downloading pytest_html-3.1.1-py3-none-any.whl (14 kB)
-Requirement already satisfied: pytest!=6.0.0,>=5.0 in /usr/local/lib/python3.7/site-packages (from pytest-html) (5.4.3)
 Collecting pytest-metadata
   Downloading pytest_metadata-1.11.0-py2.py3-none-any.whl (10 kB)
+Requirement already satisfied: pytest!=6.0.0,>=5.0 in /usr/local/lib/python3.7/site-packages (from pytest-html) (5.4.3)
 Requirement already satisfied: importlib-metadata>=0.12 in /usr/local/lib/python3.7/site-packages (from pytest!=6.0.0,>=5.0->pytest-html) (4.5.0)
-Requirement already satisfied: py>=1.5.0 in /usr/local/lib/python3.7/site-packages (from pytest!=6.0.0,>=5.0->pytest-html) (1.10.0)
-Requirement already satisfied: pluggy<1.0,>=0.12 in /usr/local/lib/python3.7/site-packages (from pytest!=6.0.0,>=5.0->pytest-html) (0.13.1)
 Requirement already satisfied: wcwidth in /usr/local/lib/python3.7/site-packages (from pytest!=6.0.0,>=5.0->pytest-html) (0.2.5)
+Requirement already satisfied: pluggy<1.0,>=0.12 in /usr/local/lib/python3.7/site-packages (from pytest!=6.0.0,>=5.0->pytest-html) (0.13.1)
+Requirement already satisfied: attrs>=17.4.0 in /usr/local/lib/python3.7/site-packages (from pytest!=6.0.0,>=5.0->pytest-html) (21.2.0)
 Requirement already satisfied: more-itertools>=4.0.0 in /usr/local/lib/python3.7/site-packages (from pytest!=6.0.0,>=5.0->pytest-html) (8.8.0)
 Requirement already satisfied: packaging in /usr/local/lib/python3.7/site-packages (from pytest!=6.0.0,>=5.0->pytest-html) (20.9)
-Requirement already satisfied: attrs>=17.4.0 in /usr/local/lib/python3.7/site-packages (from pytest!=6.0.0,>=5.0->pytest-html) (21.2.0)
-Requirement already satisfied: typing-extensions>=3.6.4 in /usr/local/lib/python3.7/site-packages (from importlib-metadata>=0.12->pytest!=6.0.0,>=5.0->pytest-html) (3.10.0.0)
+Requirement already satisfied: py>=1.5.0 in /usr/local/lib/python3.7/site-packages (from pytest!=6.0.0,>=5.0->pytest-html) (1.10.0)
 Requirement already satisfied: zipp>=0.5 in /usr/local/lib/python3.7/site-packages (from importlib-metadata>=0.12->pytest!=6.0.0,>=5.0->pytest-html) (3.4.1)
+Requirement already satisfied: typing-extensions>=3.6.4 in /usr/local/lib/python3.7/site-packages (from importlib-metadata>=0.12->pytest!=6.0.0,>=5.0->pytest-html) (3.10.0.0)
 Requirement already satisfied: pyparsing>=2.0.2 in /usr/local/lib/python3.7/site-packages (from packaging->pytest!=6.0.0,>=5.0->pytest-html) (2.4.7)
 Installing collected packages: pytest-metadata, pytest-html
 Successfully installed pytest-html-3.1.1 pytest-metadata-1.11.0
@@ -32,4 +32,4 @@ src/tests/test_run.py::TestProjectContext::test_package_name
 
 -- Docs: https://docs.pytest.org/en/latest/warnings.html
 - generated html file: file:///github/home/kedro-action/test-report/index.html -
-========================= 1 passed, 1 warning in 0.24s =========================
+========================= 1 passed, 1 warning in 0.22s =========================
