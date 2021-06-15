@@ -1,0 +1,26 @@
+kedro\_pandas\_iris.pipelines.data\_science package
+===================================================
+
+.. automodule:: kedro_pandas_iris.pipelines.data_science
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+Submodules
+----------
+
+kedro\_pandas\_iris.pipelines.data\_science.nodes module
+--------------------------------------------------------
+
+.. automodule:: kedro_pandas_iris.pipelines.data_science.nodes
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+kedro\_pandas\_iris.pipelines.data\_science.pipeline module
+-----------------------------------------------------------
+
+.. automodule:: kedro_pandas_iris.pipelines.data_science.pipeline
+   :members:
+   :undoc-members:
+   :show-inheritance:

@@ -1,0 +1,16 @@
+kedro\_pandas\_iris.pipelines package
+=====================================
+
+.. automodule:: kedro_pandas_iris.pipelines
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+Subpackages
+-----------
+
+.. toctree::
+   :maxdepth: 4
+
+   kedro_pandas_iris.pipelines.data_engineering
+   kedro_pandas_iris.pipelines.data_science
