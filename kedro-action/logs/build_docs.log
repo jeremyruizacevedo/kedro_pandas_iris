@@ -129,31 +129,31 @@ Collecting docutils
 Requirement already satisfied: pip>=20.1 in /usr/local/lib/python3.7/site-packages (from pip-tools==5.5.0->kedro-pandas-iris==0.1) (21.1.2)
 Collecting commonmark>=0.8.1
   Downloading commonmark-0.9.1-py2.py3-none-any.whl (51 kB)
-Collecting sphinxcontrib-applehelp
-  Downloading sphinxcontrib_applehelp-1.0.2-py2.py3-none-any.whl (121 kB)
-Collecting snowballstemmer>=1.1
-  Downloading snowballstemmer-2.1.0-py2.py3-none-any.whl (93 kB)
-Collecting sphinxcontrib-htmlhelp
-  Downloading sphinxcontrib_htmlhelp-2.0.0-py2.py3-none-any.whl (100 kB)
-Collecting imagesize
-  Downloading imagesize-1.2.0-py2.py3-none-any.whl (4.8 kB)
-Collecting babel>=1.3
-  Downloading Babel-2.9.1-py2.py3-none-any.whl (8.8 MB)
-Collecting sphinxcontrib-serializinghtml
-  Downloading sphinxcontrib_serializinghtml-1.1.5-py2.py3-none-any.whl (94 kB)
-Collecting sphinxcontrib-qthelp
-  Downloading sphinxcontrib_qthelp-1.0.3-py2.py3-none-any.whl (90 kB)
-Collecting sphinxcontrib-devhelp
-  Downloading sphinxcontrib_devhelp-1.0.2-py2.py3-none-any.whl (84 kB)
 Collecting sphinxcontrib-jsmath
   Downloading sphinxcontrib_jsmath-1.0.1-py2.py3-none-any.whl (5.1 kB)
 Collecting alabaster<0.8,>=0.7
   Downloading alabaster-0.7.12-py2.py3-none-any.whl (14 kB)
+Collecting sphinxcontrib-applehelp
+  Downloading sphinxcontrib_applehelp-1.0.2-py2.py3-none-any.whl (121 kB)
+Collecting snowballstemmer>=1.1
+  Downloading snowballstemmer-2.1.0-py2.py3-none-any.whl (93 kB)
+Collecting babel>=1.3
+  Downloading Babel-2.9.1-py2.py3-none-any.whl (8.8 MB)
+Collecting sphinxcontrib-devhelp
+  Downloading sphinxcontrib_devhelp-1.0.2-py2.py3-none-any.whl (84 kB)
+Collecting sphinxcontrib-htmlhelp
+  Downloading sphinxcontrib_htmlhelp-2.0.0-py2.py3-none-any.whl (100 kB)
+Collecting sphinxcontrib-qthelp
+  Downloading sphinxcontrib_qthelp-1.0.3-py2.py3-none-any.whl (90 kB)
+Collecting sphinxcontrib-serializinghtml
+  Downloading sphinxcontrib_serializinghtml-1.1.5-py2.py3-none-any.whl (94 kB)
+Collecting imagesize
+  Downloading imagesize-1.2.0-py2.py3-none-any.whl (4.8 kB)
 Building wheels for collected packages: kedro-pandas-iris
   Building wheel for kedro-pandas-iris (setup.py): started
   Building wheel for kedro-pandas-iris (setup.py): finished with status 'done'
-  Created wheel for kedro-pandas-iris: filename=kedro_pandas_iris-0.1-py3-none-any.whl size=20048 sha256=8b21493161614b0e887b7aae1ff1d8a927489428106e3510926ff17aed58fead
-  Stored in directory: /tmp/pip-ephem-wheel-cache-h3s64jxe/wheels/e3/69/9d/f0eb83a88e28f1b3e70985f0337e5b4b13620e930e1f86cb2a
+  Created wheel for kedro-pandas-iris: filename=kedro_pandas_iris-0.1-py3-none-any.whl size=20048 sha256=d8a67309a6c195ea0731235f188f6120fc73aac558f4ad998b60b5f45d0048c8
+  Stored in directory: /tmp/pip-ephem-wheel-cache-8ejrdv09/wheels/e3/69/9d/f0eb83a88e28f1b3e70985f0337e5b4b13620e930e1f86cb2a
 Successfully built kedro-pandas-iris
 Installing collected packages: sphinxcontrib-serializinghtml, sphinxcontrib-qthelp, sphinxcontrib-jsmath, sphinxcontrib-htmlhelp, sphinxcontrib-devhelp, sphinxcontrib-applehelp, snowballstemmer, imagesize, docutils, babel, alabaster, sphinx, commonmark, sphinx-rtd-theme, sphinx-copybutton, sphinx-autodoc-typehints, recommonmark, nbsphinx, kedro-pandas-iris
 Successfully installed alabaster-0.7.12 babel-2.9.1 commonmark-0.9.1 docutils-0.17.1 imagesize-1.2.0 kedro-pandas-iris-0.1 nbsphinx-0.8.1 recommonmark-0.7.1 snowballstemmer-2.1.0 sphinx-3.4.3 sphinx-autodoc-typehints-1.11.1 sphinx-copybutton-0.3.1 sphinx-rtd-theme-0.5.1 sphinxcontrib-applehelp-1.0.2 sphinxcontrib-devhelp-1.0.2 sphinxcontrib-htmlhelp-2.0.0 sphinxcontrib-jsmath-1.0.1 sphinxcontrib-qthelp-1.0.3 sphinxcontrib-serializinghtml-1.1.5
