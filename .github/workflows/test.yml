@@ -1,0 +1,14 @@
+name: kedro test
+
+on: [push]
+
+jobs:
+  kedro:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout Repo
+      uses: actions/checkout@master
+    - name: Run test
+      uses: WaylonWalker/kedro-action@2.0.0
+      with:
+        GITHUB_PAT: ${{ secrets.MY_SECRET_TOKEN }} # required for push to kedro-action branch
