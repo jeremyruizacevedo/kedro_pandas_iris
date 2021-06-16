@@ -8,7 +8,7 @@ jobs:
     steps:
     - uses: actions/checkout@main
     - name: Kedro
-      uses: ./actions
+      uses: ./.github/workflows/actions
       with:
         GITHUB_PAT: ${{ secrets.MY_SECRET_TOKEN }} # required for push to kedro-action branch
         should_lint: false
