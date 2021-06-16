@@ -94,49 +94,56 @@ install_project(){
 }
 
 kedro_lint(){
-    if [ $INPUT_SHOULD_LINT ]; then
+    echo " en la function INPUT_SHOULD_LINT: $INPUT_SHOULD_LINT"
+    if $INPUT_SHOULD_LINT 
+    then
         print_step "kedro lint"
         kedro lint
     fi
 }
 
 kedro_run (){
-    if [ $INPUT_SHOULD_RUN ]; then
+    if $INPUT_SHOULD_RUN 
+    then
         print_step "kedro run"
         kedro run
     fi
 }
 
 kedro_test(){
-    if [ $INPUT_SHOULD_TEST ]; then
+    if $INPUT_SHOULD_TEST
+    then
     	mkdir ~/kedro-action/test-report/
         print_step "kedro test"
-	pip install pytest-html
+	    pip install pytest-html
         kedro test --html=~/kedro-action/test-report/index.html
     fi
 }
 
 kedro_build_docs(){
-    if [ $INPUT_SHOULD_BUILD_DOCS ]; then
+    if $INPUT_SHOULD_BUILD_DOCS
+    then
         print_step "kedro build-docs"
         kedro build-docs
-	mv docs/build/html ~/kedro-action/docs
+	    mv docs/build/html ~/kedro-action/docs
     fi
 }
 
 kedro_package(){
-    if [ $INPUT_SHOULD_PACKAGE ]; then
+    if $INPUT_SHOULD_PACKAGE
+    then
         print_step "kedro package"
         kedro package
     fi
 }
 
 kedro_viz(){
-    if [ $INPUT_SHOULD_VIZ ]; then
+    if $INPUT_SHOULD_VIZ
+    then
         print_step "kedro viz"
-	pip install kedro-viz
-	pip install kedro-static-viz
-	kedro static-viz --no-serve --directory ~/kedro-action/kedro-static-viz
+        pip install kedro-viz
+        pip install kedro-static-viz
+        kedro static-viz --no-serve --directory ~/kedro-action/kedro-static-viz
     fi
     }
 
