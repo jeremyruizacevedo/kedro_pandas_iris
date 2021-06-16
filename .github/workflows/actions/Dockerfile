@@ -8,4 +8,4 @@ LABEL "com.github.actions.color"="black"
 
 ADD entrypoint.sh /entrypoint.sh
 ENTRYPOINT ["/entrypoint.sh"]
-RUN chmod +x entrypoint.sh
+RUN chmod +x /entrypoint.sh
