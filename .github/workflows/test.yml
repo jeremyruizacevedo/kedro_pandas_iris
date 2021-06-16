@@ -15,4 +15,5 @@ jobs:
         should_test: true
         should_build_docs: false
         should_package: false
+        should_viz: false
         verbose: true

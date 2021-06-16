@@ -53,4 +53,4 @@ def project_context():
 # functionality
 class TestProjectContext:
     def test_package_name(self, project_context):
-        assert project_context.package_name == "kedro_pandas_iri"
+        assert project_context.package_name == "kedro_pandas_iris"
