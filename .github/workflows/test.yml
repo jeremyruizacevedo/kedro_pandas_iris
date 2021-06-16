@@ -26,11 +26,11 @@ inputs:
   deploy_branch:
     description: branch to deploy static site to
     default: kedro-action
-  github_pat: ${{ secrets.MY_SECRET_TOKEN }}
-    description: >-
+  github_pat:
+    description: >
       github personal access token
       for help see https://help.github.com/en/github/authenticating-to-github/creating-a-personal-access-token-for-the-command-line
-    default: 
+    default: ${{ secrets.MY_SECRET_TOKEN }}
   verbose:
     description: prints extra information for debugging
     default: false
