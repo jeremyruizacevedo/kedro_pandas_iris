@@ -1,55 +1,19 @@
 name: kedro-action
-author: Waylon Walker
-description: Run kedro project
-inputs:
-  python_version:
-    description: a Python version that is supported by pyenv
-    default: '3.7.6'
-  should_lint:
-    description: runs `kedro lint`
-    default: true
-  should_test:
-    description: runs `kedro test`
-    default: true
-  should_build_docs:
-    description: runs `kedro build-docs`
-    default: true
-  should_package:
-    description: runs `kedro package`
-    default: true
-  should_run:
-    description: runs `kedro run`
-    default: false
-  should_viz:
-    description: creates a static site built on gatsby based on `kedro viz --save-pipeline pipeline.json`
-    default: true
-  deploy_branch:
-    description: branch to deploy static site to
-    default: kedro-action
-  github_pat:
-    description: >
-      github personal access token
-      for help see https://help.github.com/en/github/authenticating-to-github/creating-a-personal-access-token-for-the-command-line
-    default: ${{ secrets.MY_SECRET_TOKEN }}
-  verbose:
-    description: prints extra information for debugging
-    default: false
-runs:
-  using: 'docker'
-  image: 'Dockerfile'
-  args:
-    - ${{ inputs.python_version }}
-    - ${{ inputs.should_lint }}
-    - ${{ inputs.should_test }}
-    - ${{ inputs.should_build_docs }}
-    - ${{ inputs.should_package }}
-    - ${{ inputs.should_run }}
-    - ${{ inputs.should_viz }}
-    - ${{ inputs.docs_branch }}
-    - ${{ inputs.viz_branch }}
-    - ${{ inputs.deploy_branch}}
-    - ${{ inputs.github_pat}}
-    - ${{ inputs.verbose }}
-branding:
-  icon: 'git-branch'
-  color: 'black'
+
+on: [push]
+
+jobs:
+  kedro:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@branch_tests
+    - name: Kedro
+      uses: ./actions
+      with:
+        GITHUB_PAT: ${{ secrets.MY_SECRET_TOKEN }} # required for push to kedro-action branch
+        should_lint: false
+        should_test: true
+        should_build_docs: false
+        should_package: false
+        should_run: false
+        should_viz: false
