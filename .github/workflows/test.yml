@@ -7,12 +7,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout Repo
-      uses: actions/checkout@master
+      uses: actions/checkout@main
     - name: Run test
-      uses: WaylonWalker/kedro-action@1.0.3
+      uses: WaylonWalker/kedro-action@master
       with:
-        python_version: '3.7.6'
         should_lint: false
         should_test: true
         should_build_docs: false
         should_package: false
+        verbose: true
