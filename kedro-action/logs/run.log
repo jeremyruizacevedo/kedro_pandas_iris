@@ -1,3 +1,4 @@
+2021-06-16 02:27:28,681 - kedro.framework.session.store - INFO - `read()` not implemented for `BaseSessionStore`. Assuming empty store.
 2021-06-16 02:27:28,732 - root - INFO - ** Kedro project workspace
 2021-06-16 02:27:29,071 - kedro.io.data_catalog - INFO - Loading data from `example_iris_data` (CSVDataSet)...
 2021-06-16 02:27:29,074 - kedro.io.data_catalog - INFO - Loading data from `params:example_test_data_ratio` (MemoryDataSet)...
@@ -25,3 +26,8 @@
 2021-06-16 02:27:29,499 - kedro.runner.sequential_runner - INFO - Completed 4 out of 4 tasks
 2021-06-16 02:27:29,499 - kedro.runner.sequential_runner - INFO - Pipeline execution completed successfully.
 2021-06-16 02:27:29,499 - kedro.framework.session.store - INFO - `save()` not implemented for `BaseSessionStore`. Skipping the step.
+/usr/local/lib/python3.7/site-packages/kedro/framework/context/context.py:494: UserWarning: Credentials not found in your Kedro project config.
+No files found in ['/github/workspace/conf/base', '/github/workspace/conf/local'] matching the glob pattern(s): ['credentials*', 'credentials*/**', '**/credentials*']
+  warn(f"Credentials not found in your Kedro project config.\n{str(exc)}")
+/usr/local/lib/python3.7/site-packages/fsspec/__init__.py:43: DeprecationWarning: SelectableGroups dict interface is deprecated. Use select.
+  for spec in entry_points.get("fsspec.specs", []):

@@ -1,0 +1,336 @@
+/usr/local/bin/python -m pip install '/github/workspace/src/[docs]'
+Processing ./src
+  DEPRECATION: A future pip version will change local packages to be built in-place without first copying to a temporary directory. We recommend you use --use-feature=in-tree-build to test your packages with this new behavior before it becomes the default.
+   pip 21.3 will remove support for this functionality. You can find discussion regarding this at https://github.com/pypa/pip/issues/7555.
+Requirement already satisfied: anyconfig==0.10.1 in /usr/local/lib/python3.7/site-packages (from kedro-pandas-iris==0.1) (0.10.1)
+Requirement already satisfied: appdirs==1.4.4 in /usr/local/lib/python3.7/site-packages (from kedro-pandas-iris==0.1) (1.4.4)
+Requirement already satisfied: argon2-cffi==20.1.0 in /usr/local/lib/python3.7/site-packages (from kedro-pandas-iris==0.1) (20.1.0)
+Requirement already satisfied: arrow==1.1.0 in /usr/local/lib/python3.7/site-packages (from kedro-pandas-iris==0.1) (1.1.0)
+Requirement already satisfied: async-generator==1.10 in /usr/local/lib/python3.7/site-packages (from kedro-pandas-iris==0.1) (1.10)
+Requirement already satisfied: attrs==21.2.0 in /usr/local/lib/python3.7/site-packages (from kedro-pandas-iris==0.1) (21.2.0)
+Requirement already satisfied: backcall==0.2.0 in /usr/local/lib/python3.7/site-packages (from kedro-pandas-iris==0.1) (0.2.0)
+Requirement already satisfied: binaryornot==0.4.4 in /usr/local/lib/python3.7/site-packages (from kedro-pandas-iris==0.1) (0.4.4)
+Requirement already satisfied: black==v19.10b0 in /usr/local/lib/python3.7/site-packages (from kedro-pandas-iris==0.1) (19.10b0)
+Requirement already satisfied: bleach==3.3.0 in /usr/local/lib/python3.7/site-packages (from kedro-pandas-iris==0.1) (3.3.0)
+Requirement already satisfied: cachetools==4.2.2 in /usr/local/lib/python3.7/site-packages (from kedro-pandas-iris==0.1) (4.2.2)
+Requirement already satisfied: certifi==2021.5.30 in /usr/local/lib/python3.7/site-packages (from kedro-pandas-iris==0.1) (2021.5.30)
+Requirement already satisfied: cffi==1.14.5 in /usr/local/lib/python3.7/site-packages (from kedro-pandas-iris==0.1) (1.14.5)
+Requirement already satisfied: chardet==4.0.0 in /usr/local/lib/python3.7/site-packages (from kedro-pandas-iris==0.1) (4.0.0)
+Requirement already satisfied: click==7.1.2 in /usr/local/lib/python3.7/site-packages (from kedro-pandas-iris==0.1) (7.1.2)
+Requirement already satisfied: cookiecutter==1.7.3 in /usr/local/lib/python3.7/site-packages (from kedro-pandas-iris==0.1) (1.7.3)
+Requirement already satisfied: coverage==5.5 in /usr/local/lib/python3.7/site-packages (from kedro-pandas-iris==0.1) (5.5)
+Requirement already satisfied: decorator==5.0.9 in /usr/local/lib/python3.7/site-packages (from kedro-pandas-iris==0.1) (5.0.9)
+Requirement already satisfied: defusedxml==0.7.1 in /usr/local/lib/python3.7/site-packages (from kedro-pandas-iris==0.1) (0.7.1)
+Requirement already satisfied: dynaconf==3.1.4 in /usr/local/lib/python3.7/site-packages (from kedro-pandas-iris==0.1) (3.1.4)
+Requirement already satisfied: entrypoints==0.3 in /usr/local/lib/python3.7/site-packages (from kedro-pandas-iris==0.1) (0.3)
+Requirement already satisfied: flake8==3.9.2 in /usr/local/lib/python3.7/site-packages (from kedro-pandas-iris==0.1) (3.9.2)
+Requirement already satisfied: fsspec==0.8.7 in /usr/local/lib/python3.7/site-packages (from kedro-pandas-iris==0.1) (0.8.7)
+Requirement already satisfied: gitdb==4.0.7 in /usr/local/lib/python3.7/site-packages (from kedro-pandas-iris==0.1) (4.0.7)
+Requirement already satisfied: gitpython==3.1.17 in /usr/local/lib/python3.7/site-packages (from kedro-pandas-iris==0.1) (3.1.17)
+Requirement already satisfied: idna==2.10 in /usr/local/lib/python3.7/site-packages (from kedro-pandas-iris==0.1) (2.10)
+Requirement already satisfied: importlib-metadata==4.5.0 in /usr/local/lib/python3.7/site-packages (from kedro-pandas-iris==0.1) (4.5.0)
+Requirement already satisfied: ipykernel==5.5.5 in /usr/local/lib/python3.7/site-packages (from kedro-pandas-iris==0.1) (5.5.5)
+Requirement already satisfied: ipython-genutils==0.2.0 in /usr/local/lib/python3.7/site-packages (from kedro-pandas-iris==0.1) (0.2.0)
+Requirement already satisfied: ipython==7.24.1 in /usr/local/lib/python3.7/site-packages (from kedro-pandas-iris==0.1) (7.24.1)
+Requirement already satisfied: ipywidgets==7.6.3 in /usr/local/lib/python3.7/site-packages (from kedro-pandas-iris==0.1) (7.6.3)
+Requirement already satisfied: isort==4.3.21 in /usr/local/lib/python3.7/site-packages (from kedro-pandas-iris==0.1) (4.3.21)
+Requirement already satisfied: jedi==0.18.0 in /usr/local/lib/python3.7/site-packages (from kedro-pandas-iris==0.1) (0.18.0)
+Requirement already satisfied: jinja2-time==0.2.0 in /usr/local/lib/python3.7/site-packages (from kedro-pandas-iris==0.1) (0.2.0)
+Requirement already satisfied: jinja2==3.0.1 in /usr/local/lib/python3.7/site-packages (from kedro-pandas-iris==0.1) (3.0.1)
+Requirement already satisfied: jmespath==0.10.0 in /usr/local/lib/python3.7/site-packages (from kedro-pandas-iris==0.1) (0.10.0)
+Requirement already satisfied: jsonschema==3.2.0 in /usr/local/lib/python3.7/site-packages (from kedro-pandas-iris==0.1) (3.2.0)
+Requirement already satisfied: jupyter-client==6.1.12 in /usr/local/lib/python3.7/site-packages (from kedro-pandas-iris==0.1) (6.1.12)
+Requirement already satisfied: jupyter-console==6.4.0 in /usr/local/lib/python3.7/site-packages (from kedro-pandas-iris==0.1) (6.4.0)
+Requirement already satisfied: jupyter-core==4.7.1 in /usr/local/lib/python3.7/site-packages (from kedro-pandas-iris==0.1) (4.7.1)
+Requirement already satisfied: jupyter==1.0.0 in /usr/local/lib/python3.7/site-packages (from kedro-pandas-iris==0.1) (1.0.0)
+Requirement already satisfied: jupyterlab-launcher==0.10.5 in /usr/local/lib/python3.7/site-packages (from kedro-pandas-iris==0.1) (0.10.5)
+Requirement already satisfied: jupyterlab-pygments==0.1.2 in /usr/local/lib/python3.7/site-packages (from kedro-pandas-iris==0.1) (0.1.2)
+Requirement already satisfied: jupyterlab-widgets==1.0.0 in /usr/local/lib/python3.7/site-packages (from kedro-pandas-iris==0.1) (1.0.0)
+Requirement already satisfied: jupyterlab==0.31.1 in /usr/local/lib/python3.7/site-packages (from kedro-pandas-iris==0.1) (0.31.1)
+Requirement already satisfied: kedro[pandas.csvdataset]==0.17.3 in /usr/local/lib/python3.7/site-packages (from kedro-pandas-iris==0.1) (0.17.3)
+Requirement already satisfied: markupsafe==2.0.1 in /usr/local/lib/python3.7/site-packages (from kedro-pandas-iris==0.1) (2.0.1)
+Requirement already satisfied: matplotlib-inline==0.1.2 in /usr/local/lib/python3.7/site-packages (from kedro-pandas-iris==0.1) (0.1.2)
+Requirement already satisfied: mccabe==0.6.1 in /usr/local/lib/python3.7/site-packages (from kedro-pandas-iris==0.1) (0.6.1)
+Requirement already satisfied: mistune==0.8.4 in /usr/local/lib/python3.7/site-packages (from kedro-pandas-iris==0.1) (0.8.4)
+Requirement already satisfied: more-itertools==8.8.0 in /usr/local/lib/python3.7/site-packages (from kedro-pandas-iris==0.1) (8.8.0)
+Requirement already satisfied: nbclient==0.5.3 in /usr/local/lib/python3.7/site-packages (from kedro-pandas-iris==0.1) (0.5.3)
+Requirement already satisfied: nbconvert==6.0.7 in /usr/local/lib/python3.7/site-packages (from kedro-pandas-iris==0.1) (6.0.7)
+Requirement already satisfied: nbformat==5.1.3 in /usr/local/lib/python3.7/site-packages (from kedro-pandas-iris==0.1) (5.1.3)
+Requirement already satisfied: nbstripout==0.3.3 in /usr/local/lib/python3.7/site-packages (from kedro-pandas-iris==0.1) (0.3.3)
+Requirement already satisfied: nest-asyncio==1.5.1 in /usr/local/lib/python3.7/site-packages (from kedro-pandas-iris==0.1) (1.5.1)
+Requirement already satisfied: notebook==6.4.0 in /usr/local/lib/python3.7/site-packages (from kedro-pandas-iris==0.1) (6.4.0)
+Requirement already satisfied: numpy==1.20.3 in /usr/local/lib/python3.7/site-packages (from kedro-pandas-iris==0.1) (1.20.3)
+Requirement already satisfied: packaging==20.9 in /usr/local/lib/python3.7/site-packages (from kedro-pandas-iris==0.1) (20.9)
+Requirement already satisfied: pandas==1.2.4 in /usr/local/lib/python3.7/site-packages (from kedro-pandas-iris==0.1) (1.2.4)
+Requirement already satisfied: pandocfilters==1.4.3 in /usr/local/lib/python3.7/site-packages (from kedro-pandas-iris==0.1) (1.4.3)
+Requirement already satisfied: parso==0.8.2 in /usr/local/lib/python3.7/site-packages (from kedro-pandas-iris==0.1) (0.8.2)
+Requirement already satisfied: pathspec==0.8.1 in /usr/local/lib/python3.7/site-packages (from kedro-pandas-iris==0.1) (0.8.1)
+Requirement already satisfied: pexpect==4.8.0 in /usr/local/lib/python3.7/site-packages (from kedro-pandas-iris==0.1) (4.8.0)
+Requirement already satisfied: pickleshare==0.7.5 in /usr/local/lib/python3.7/site-packages (from kedro-pandas-iris==0.1) (0.7.5)
+Requirement already satisfied: pip-tools==5.5.0 in /usr/local/lib/python3.7/site-packages (from kedro-pandas-iris==0.1) (5.5.0)
+Requirement already satisfied: pluggy==0.13.1 in /usr/local/lib/python3.7/site-packages (from kedro-pandas-iris==0.1) (0.13.1)
+Requirement already satisfied: poyo==0.5.0 in /usr/local/lib/python3.7/site-packages (from kedro-pandas-iris==0.1) (0.5.0)
+Requirement already satisfied: prometheus-client==0.11.0 in /usr/local/lib/python3.7/site-packages (from kedro-pandas-iris==0.1) (0.11.0)
+Requirement already satisfied: prompt-toolkit==3.0.18 in /usr/local/lib/python3.7/site-packages (from kedro-pandas-iris==0.1) (3.0.18)
+Requirement already satisfied: ptyprocess==0.7.0 in /usr/local/lib/python3.7/site-packages (from kedro-pandas-iris==0.1) (0.7.0)
+Requirement already satisfied: py==1.10.0 in /usr/local/lib/python3.7/site-packages (from kedro-pandas-iris==0.1) (1.10.0)
+Requirement already satisfied: pycodestyle==2.7.0 in /usr/local/lib/python3.7/site-packages (from kedro-pandas-iris==0.1) (2.7.0)
+Requirement already satisfied: pycparser==2.20 in /usr/local/lib/python3.7/site-packages (from kedro-pandas-iris==0.1) (2.20)
+Requirement already satisfied: pyflakes==2.3.1 in /usr/local/lib/python3.7/site-packages (from kedro-pandas-iris==0.1) (2.3.1)
+Requirement already satisfied: pygments==2.9.0 in /usr/local/lib/python3.7/site-packages (from kedro-pandas-iris==0.1) (2.9.0)
+Requirement already satisfied: pyparsing==2.4.7 in /usr/local/lib/python3.7/site-packages (from kedro-pandas-iris==0.1) (2.4.7)
+Requirement already satisfied: pyrsistent==0.17.3 in /usr/local/lib/python3.7/site-packages (from kedro-pandas-iris==0.1) (0.17.3)
+Requirement already satisfied: pytest-cov==2.12.1 in /usr/local/lib/python3.7/site-packages (from kedro-pandas-iris==0.1) (2.12.1)
+Requirement already satisfied: pytest-mock==1.13.0 in /usr/local/lib/python3.7/site-packages (from kedro-pandas-iris==0.1) (1.13.0)
+Requirement already satisfied: pytest==5.4.3 in /usr/local/lib/python3.7/site-packages (from kedro-pandas-iris==0.1) (5.4.3)
+Requirement already satisfied: python-dateutil==2.8.1 in /usr/local/lib/python3.7/site-packages (from kedro-pandas-iris==0.1) (2.8.1)
+Requirement already satisfied: python-json-logger==0.1.11 in /usr/local/lib/python3.7/site-packages (from kedro-pandas-iris==0.1) (0.1.11)
+Requirement already satisfied: python-slugify==5.0.2 in /usr/local/lib/python3.7/site-packages (from kedro-pandas-iris==0.1) (5.0.2)
+Requirement already satisfied: pytz==2021.1 in /usr/local/lib/python3.7/site-packages (from kedro-pandas-iris==0.1) (2021.1)
+Requirement already satisfied: pyyaml==5.4.1 in /usr/local/lib/python3.7/site-packages (from kedro-pandas-iris==0.1) (5.4.1)
+Requirement already satisfied: pyzmq==22.1.0 in /usr/local/lib/python3.7/site-packages (from kedro-pandas-iris==0.1) (22.1.0)
+Requirement already satisfied: qtconsole==5.1.0 in /usr/local/lib/python3.7/site-packages (from kedro-pandas-iris==0.1) (5.1.0)
+Requirement already satisfied: qtpy==1.9.0 in /usr/local/lib/python3.7/site-packages (from kedro-pandas-iris==0.1) (1.9.0)
+Requirement already satisfied: regex==2021.4.4 in /usr/local/lib/python3.7/site-packages (from kedro-pandas-iris==0.1) (2021.4.4)
+Requirement already satisfied: requests==2.25.1 in /usr/local/lib/python3.7/site-packages (from kedro-pandas-iris==0.1) (2.25.1)
+Requirement already satisfied: send2trash==1.5.0 in /usr/local/lib/python3.7/site-packages (from kedro-pandas-iris==0.1) (1.5.0)
+Requirement already satisfied: six==1.16.0 in /usr/local/lib/python3.7/site-packages (from kedro-pandas-iris==0.1) (1.16.0)
+Requirement already satisfied: smmap==4.0.0 in /usr/local/lib/python3.7/site-packages (from kedro-pandas-iris==0.1) (4.0.0)
+Requirement already satisfied: terminado==0.10.1 in /usr/local/lib/python3.7/site-packages (from kedro-pandas-iris==0.1) (0.10.1)
+Requirement already satisfied: testpath==0.5.0 in /usr/local/lib/python3.7/site-packages (from kedro-pandas-iris==0.1) (0.5.0)
+Requirement already satisfied: text-unidecode==1.3 in /usr/local/lib/python3.7/site-packages (from kedro-pandas-iris==0.1) (1.3)
+Requirement already satisfied: toml==0.10.2 in /usr/local/lib/python3.7/site-packages (from kedro-pandas-iris==0.1) (0.10.2)
+Requirement already satisfied: toposort==1.6 in /usr/local/lib/python3.7/site-packages (from kedro-pandas-iris==0.1) (1.6)
+Requirement already satisfied: tornado==6.1 in /usr/local/lib/python3.7/site-packages (from kedro-pandas-iris==0.1) (6.1)
+Requirement already satisfied: traitlets==5.0.5 in /usr/local/lib/python3.7/site-packages (from kedro-pandas-iris==0.1) (5.0.5)
+Requirement already satisfied: typed-ast==1.4.3 in /usr/local/lib/python3.7/site-packages (from kedro-pandas-iris==0.1) (1.4.3)
+Requirement already satisfied: typing-extensions==3.10.0.0 in /usr/local/lib/python3.7/site-packages (from kedro-pandas-iris==0.1) (3.10.0.0)
+Requirement already satisfied: urllib3==1.26.5 in /usr/local/lib/python3.7/site-packages (from kedro-pandas-iris==0.1) (1.26.5)
+Requirement already satisfied: wcwidth==0.2.5 in /usr/local/lib/python3.7/site-packages (from kedro-pandas-iris==0.1) (0.2.5)
+Requirement already satisfied: webencodings==0.5.1 in /usr/local/lib/python3.7/site-packages (from kedro-pandas-iris==0.1) (0.5.1)
+Requirement already satisfied: wheel==0.32.2 in /usr/local/lib/python3.7/site-packages (from kedro-pandas-iris==0.1) (0.32.2)
+Requirement already satisfied: widgetsnbextension==3.5.1 in /usr/local/lib/python3.7/site-packages (from kedro-pandas-iris==0.1) (3.5.1)
+Requirement already satisfied: zipp==3.4.1 in /usr/local/lib/python3.7/site-packages (from kedro-pandas-iris==0.1) (3.4.1)
+Collecting sphinx~=3.4.3
+  Downloading Sphinx-3.4.3-py3-none-any.whl (2.9 MB)
+Collecting sphinx_rtd_theme==0.5.1
+  Downloading sphinx_rtd_theme-0.5.1-py2.py3-none-any.whl (2.8 MB)
+Collecting nbsphinx==0.8.1
+  Downloading nbsphinx-0.8.1-py3-none-any.whl (24 kB)
+Collecting recommonmark==0.7.1
+  Downloading recommonmark-0.7.1-py2.py3-none-any.whl (10 kB)
+Collecting sphinx-autodoc-typehints==1.11.1
+  Downloading sphinx_autodoc_typehints-1.11.1-py3-none-any.whl (8.7 kB)
+Collecting sphinx_copybutton==0.3.1
+  Downloading sphinx_copybutton-0.3.1-py3-none-any.whl (10 kB)
+Requirement already satisfied: setuptools in /usr/local/lib/python3.7/site-packages (from anyconfig==0.10.1->kedro-pandas-iris==0.1) (57.0.0)
+Collecting docutils
+  Downloading docutils-0.17.1-py2.py3-none-any.whl (575 kB)
+Requirement already satisfied: pip>=20.1 in /usr/local/lib/python3.7/site-packages (from pip-tools==5.5.0->kedro-pandas-iris==0.1) (21.1.2)
+Collecting commonmark>=0.8.1
+  Downloading commonmark-0.9.1-py2.py3-none-any.whl (51 kB)
+Collecting sphinxcontrib-jsmath
+  Downloading sphinxcontrib_jsmath-1.0.1-py2.py3-none-any.whl (5.1 kB)
+Collecting babel>=1.3
+  Downloading Babel-2.9.1-py2.py3-none-any.whl (8.8 MB)
+Collecting sphinxcontrib-serializinghtml
+  Downloading sphinxcontrib_serializinghtml-1.1.5-py2.py3-none-any.whl (94 kB)
+Collecting sphinxcontrib-devhelp
+  Downloading sphinxcontrib_devhelp-1.0.2-py2.py3-none-any.whl (84 kB)
+Collecting sphinxcontrib-applehelp
+  Downloading sphinxcontrib_applehelp-1.0.2-py2.py3-none-any.whl (121 kB)
+Collecting alabaster<0.8,>=0.7
+  Downloading alabaster-0.7.12-py2.py3-none-any.whl (14 kB)
+Collecting imagesize
+  Downloading imagesize-1.2.0-py2.py3-none-any.whl (4.8 kB)
+Collecting sphinxcontrib-htmlhelp
+  Downloading sphinxcontrib_htmlhelp-2.0.0-py2.py3-none-any.whl (100 kB)
+Collecting snowballstemmer>=1.1
+  Downloading snowballstemmer-2.1.0-py2.py3-none-any.whl (93 kB)
+Collecting sphinxcontrib-qthelp
+  Downloading sphinxcontrib_qthelp-1.0.3-py2.py3-none-any.whl (90 kB)
+Building wheels for collected packages: kedro-pandas-iris
+  Building wheel for kedro-pandas-iris (setup.py): started
+  Building wheel for kedro-pandas-iris (setup.py): finished with status 'done'
+  Created wheel for kedro-pandas-iris: filename=kedro_pandas_iris-0.1-py3-none-any.whl size=20048 sha256=34f20c46e16bb7719fcdd2e14f0e8c455e073bd452e7a7b91a8c32f3cfd88689
+  Stored in directory: /tmp/pip-ephem-wheel-cache-pwo4lodb/wheels/e3/69/9d/f0eb83a88e28f1b3e70985f0337e5b4b13620e930e1f86cb2a
+Successfully built kedro-pandas-iris
+Installing collected packages: sphinxcontrib-serializinghtml, sphinxcontrib-qthelp, sphinxcontrib-jsmath, sphinxcontrib-htmlhelp, sphinxcontrib-devhelp, sphinxcontrib-applehelp, snowballstemmer, imagesize, docutils, babel, alabaster, sphinx, commonmark, sphinx-rtd-theme, sphinx-copybutton, sphinx-autodoc-typehints, recommonmark, nbsphinx, kedro-pandas-iris
+Successfully installed alabaster-0.7.12 babel-2.9.1 commonmark-0.9.1 docutils-0.17.1 imagesize-1.2.0 kedro-pandas-iris-0.1 nbsphinx-0.8.1 recommonmark-0.7.1 snowballstemmer-2.1.0 sphinx-3.4.3 sphinx-autodoc-typehints-1.11.1 sphinx-copybutton-0.3.1 sphinx-rtd-theme-0.5.1 sphinxcontrib-applehelp-1.0.2 sphinxcontrib-devhelp-1.0.2 sphinxcontrib-htmlhelp-2.0.0 sphinxcontrib-jsmath-1.0.1 sphinxcontrib-qthelp-1.0.3 sphinxcontrib-serializinghtml-1.1.5
+WARNING: Running pip as root will break packages and permissions. You should install packages reliably by using venv: https://pip.pypa.io/warnings/venv
+/usr/local/bin/python -m pip install -r /github/workspace/src/requirements.txt
+Requirement already satisfied: anyconfig==0.10.1 in /usr/local/lib/python3.7/site-packages (from -r /github/workspace/src/requirements.txt (line 7)) (0.10.1)
+Requirement already satisfied: appdirs==1.4.4 in /usr/local/lib/python3.7/site-packages (from -r /github/workspace/src/requirements.txt (line 9)) (1.4.4)
+Requirement already satisfied: argon2-cffi==20.1.0 in /usr/local/lib/python3.7/site-packages (from -r /github/workspace/src/requirements.txt (line 11)) (20.1.0)
+Requirement already satisfied: arrow==1.1.0 in /usr/local/lib/python3.7/site-packages (from -r /github/workspace/src/requirements.txt (line 13)) (1.1.0)
+Requirement already satisfied: async-generator==1.10 in /usr/local/lib/python3.7/site-packages (from -r /github/workspace/src/requirements.txt (line 15)) (1.10)
+Requirement already satisfied: attrs==21.2.0 in /usr/local/lib/python3.7/site-packages (from -r /github/workspace/src/requirements.txt (line 17)) (21.2.0)
+Requirement already satisfied: backcall==0.2.0 in /usr/local/lib/python3.7/site-packages (from -r /github/workspace/src/requirements.txt (line 22)) (0.2.0)
+Requirement already satisfied: binaryornot==0.4.4 in /usr/local/lib/python3.7/site-packages (from -r /github/workspace/src/requirements.txt (line 24)) (0.4.4)
+Requirement already satisfied: black==v19.10b0 in /usr/local/lib/python3.7/site-packages (from -r /github/workspace/src/requirements.txt (line 26)) (19.10b0)
+Requirement already satisfied: bleach==3.3.0 in /usr/local/lib/python3.7/site-packages (from -r /github/workspace/src/requirements.txt (line 28)) (3.3.0)
+Requirement already satisfied: cachetools==4.2.2 in /usr/local/lib/python3.7/site-packages (from -r /github/workspace/src/requirements.txt (line 30)) (4.2.2)
+Requirement already satisfied: certifi==2021.5.30 in /usr/local/lib/python3.7/site-packages (from -r /github/workspace/src/requirements.txt (line 32)) (2021.5.30)
+Requirement already satisfied: cffi==1.14.5 in /usr/local/lib/python3.7/site-packages (from -r /github/workspace/src/requirements.txt (line 34)) (1.14.5)
+Requirement already satisfied: chardet==4.0.0 in /usr/local/lib/python3.7/site-packages (from -r /github/workspace/src/requirements.txt (line 36)) (4.0.0)
+Requirement already satisfied: click==7.1.2 in /usr/local/lib/python3.7/site-packages (from -r /github/workspace/src/requirements.txt (line 40)) (7.1.2)
+Requirement already satisfied: cookiecutter==1.7.3 in /usr/local/lib/python3.7/site-packages (from -r /github/workspace/src/requirements.txt (line 46)) (1.7.3)
+Requirement already satisfied: coverage==5.5 in /usr/local/lib/python3.7/site-packages (from -r /github/workspace/src/requirements.txt (line 48)) (5.5)
+Requirement already satisfied: decorator==5.0.9 in /usr/local/lib/python3.7/site-packages (from -r /github/workspace/src/requirements.txt (line 50)) (5.0.9)
+Requirement already satisfied: defusedxml==0.7.1 in /usr/local/lib/python3.7/site-packages (from -r /github/workspace/src/requirements.txt (line 52)) (0.7.1)
+Requirement already satisfied: dynaconf==3.1.4 in /usr/local/lib/python3.7/site-packages (from -r /github/workspace/src/requirements.txt (line 54)) (3.1.4)
+Requirement already satisfied: entrypoints==0.3 in /usr/local/lib/python3.7/site-packages (from -r /github/workspace/src/requirements.txt (line 56)) (0.3)
+Requirement already satisfied: flake8==3.9.2 in /usr/local/lib/python3.7/site-packages (from -r /github/workspace/src/requirements.txt (line 58)) (3.9.2)
+Requirement already satisfied: fsspec==0.8.7 in /usr/local/lib/python3.7/site-packages (from -r /github/workspace/src/requirements.txt (line 60)) (0.8.7)
+Requirement already satisfied: gitdb==4.0.7 in /usr/local/lib/python3.7/site-packages (from -r /github/workspace/src/requirements.txt (line 62)) (4.0.7)
+Requirement already satisfied: gitpython==3.1.17 in /usr/local/lib/python3.7/site-packages (from -r /github/workspace/src/requirements.txt (line 64)) (3.1.17)
+Requirement already satisfied: idna==2.10 in /usr/local/lib/python3.7/site-packages (from -r /github/workspace/src/requirements.txt (line 66)) (2.10)
+Requirement already satisfied: importlib-metadata==4.5.0 in /usr/local/lib/python3.7/site-packages (from -r /github/workspace/src/requirements.txt (line 68)) (4.5.0)
+Requirement already satisfied: ipykernel==5.5.5 in /usr/local/lib/python3.7/site-packages (from -r /github/workspace/src/requirements.txt (line 75)) (5.5.5)
+Requirement already satisfied: ipython-genutils==0.2.0 in /usr/local/lib/python3.7/site-packages (from -r /github/workspace/src/requirements.txt (line 82)) (0.2.0)
+Requirement already satisfied: ipython==7.24.1 in /usr/local/lib/python3.7/site-packages (from -r /github/workspace/src/requirements.txt (line 89)) (7.24.1)
+Requirement already satisfied: ipywidgets==7.6.3 in /usr/local/lib/python3.7/site-packages (from -r /github/workspace/src/requirements.txt (line 95)) (7.6.3)
+Requirement already satisfied: isort==4.3.21 in /usr/local/lib/python3.7/site-packages (from -r /github/workspace/src/requirements.txt (line 97)) (4.3.21)
+Requirement already satisfied: jedi==0.18.0 in /usr/local/lib/python3.7/site-packages (from -r /github/workspace/src/requirements.txt (line 99)) (0.18.0)
+Requirement already satisfied: jinja2-time==0.2.0 in /usr/local/lib/python3.7/site-packages (from -r /github/workspace/src/requirements.txt (line 101)) (0.2.0)
+Requirement already satisfied: jinja2==3.0.1 in /usr/local/lib/python3.7/site-packages (from -r /github/workspace/src/requirements.txt (line 103)) (3.0.1)
+Requirement already satisfied: jmespath==0.10.0 in /usr/local/lib/python3.7/site-packages (from -r /github/workspace/src/requirements.txt (line 109)) (0.10.0)
+Requirement already satisfied: jsonschema==3.2.0 in /usr/local/lib/python3.7/site-packages (from -r /github/workspace/src/requirements.txt (line 111)) (3.2.0)
+Requirement already satisfied: jupyter-client==6.1.12 in /usr/local/lib/python3.7/site-packages (from -r /github/workspace/src/requirements.txt (line 115)) (6.1.12)
+Requirement already satisfied: jupyter-console==6.4.0 in /usr/local/lib/python3.7/site-packages (from -r /github/workspace/src/requirements.txt (line 124)) (6.4.0)
+Requirement already satisfied: jupyter-core==4.7.1 in /usr/local/lib/python3.7/site-packages (from -r /github/workspace/src/requirements.txt (line 126)) (4.7.1)
+Requirement already satisfied: jupyter==1.0.0 in /usr/local/lib/python3.7/site-packages (from -r /github/workspace/src/requirements.txt (line 133)) (1.0.0)
+Requirement already satisfied: jupyterlab-launcher==0.10.5 in /usr/local/lib/python3.7/site-packages (from -r /github/workspace/src/requirements.txt (line 135)) (0.10.5)
+Requirement already satisfied: jupyterlab-pygments==0.1.2 in /usr/local/lib/python3.7/site-packages (from -r /github/workspace/src/requirements.txt (line 137)) (0.1.2)
+Requirement already satisfied: jupyterlab-widgets==1.0.0 in /usr/local/lib/python3.7/site-packages (from -r /github/workspace/src/requirements.txt (line 139)) (1.0.0)
+Requirement already satisfied: jupyterlab==0.31.1 in /usr/local/lib/python3.7/site-packages (from -r /github/workspace/src/requirements.txt (line 141)) (0.31.1)
+Requirement already satisfied: kedro[pandas.csvdataset]==0.17.3 in /usr/local/lib/python3.7/site-packages (from -r /github/workspace/src/requirements.txt (line 143)) (0.17.3)
+Requirement already satisfied: markupsafe==2.0.1 in /usr/local/lib/python3.7/site-packages (from -r /github/workspace/src/requirements.txt (line 145)) (2.0.1)
+Requirement already satisfied: matplotlib-inline==0.1.2 in /usr/local/lib/python3.7/site-packages (from -r /github/workspace/src/requirements.txt (line 147)) (0.1.2)
+Requirement already satisfied: mccabe==0.6.1 in /usr/local/lib/python3.7/site-packages (from -r /github/workspace/src/requirements.txt (line 149)) (0.6.1)
+Requirement already satisfied: mistune==0.8.4 in /usr/local/lib/python3.7/site-packages (from -r /github/workspace/src/requirements.txt (line 151)) (0.8.4)
+Requirement already satisfied: more-itertools==8.8.0 in /usr/local/lib/python3.7/site-packages (from -r /github/workspace/src/requirements.txt (line 153)) (8.8.0)
+Requirement already satisfied: nbclient==0.5.3 in /usr/local/lib/python3.7/site-packages (from -r /github/workspace/src/requirements.txt (line 155)) (0.5.3)
+Requirement already satisfied: nbconvert==6.0.7 in /usr/local/lib/python3.7/site-packages (from -r /github/workspace/src/requirements.txt (line 157)) (6.0.7)
+Requirement already satisfied: nbformat==5.1.3 in /usr/local/lib/python3.7/site-packages (from -r /github/workspace/src/requirements.txt (line 161)) (5.1.3)
+Requirement already satisfied: nbstripout==0.3.3 in /usr/local/lib/python3.7/site-packages (from -r /github/workspace/src/requirements.txt (line 168)) (0.3.3)
+Requirement already satisfied: nest-asyncio==1.5.1 in /usr/local/lib/python3.7/site-packages (from -r /github/workspace/src/requirements.txt (line 170)) (1.5.1)
+Requirement already satisfied: notebook==6.4.0 in /usr/local/lib/python3.7/site-packages (from -r /github/workspace/src/requirements.txt (line 172)) (6.4.0)
+Requirement already satisfied: numpy==1.20.3 in /usr/local/lib/python3.7/site-packages (from -r /github/workspace/src/requirements.txt (line 178)) (1.20.3)
+Requirement already satisfied: packaging==20.9 in /usr/local/lib/python3.7/site-packages (from -r /github/workspace/src/requirements.txt (line 180)) (20.9)
+Requirement already satisfied: pandas==1.2.4 in /usr/local/lib/python3.7/site-packages (from -r /github/workspace/src/requirements.txt (line 184)) (1.2.4)
+Requirement already satisfied: pandocfilters==1.4.3 in /usr/local/lib/python3.7/site-packages (from -r /github/workspace/src/requirements.txt (line 186)) (1.4.3)
+Requirement already satisfied: parso==0.8.2 in /usr/local/lib/python3.7/site-packages (from -r /github/workspace/src/requirements.txt (line 188)) (0.8.2)
+Requirement already satisfied: pathspec==0.8.1 in /usr/local/lib/python3.7/site-packages (from -r /github/workspace/src/requirements.txt (line 190)) (0.8.1)
+Requirement already satisfied: pexpect==4.8.0 in /usr/local/lib/python3.7/site-packages (from -r /github/workspace/src/requirements.txt (line 192)) (4.8.0)
+Requirement already satisfied: pickleshare==0.7.5 in /usr/local/lib/python3.7/site-packages (from -r /github/workspace/src/requirements.txt (line 194)) (0.7.5)
+Requirement already satisfied: pip-tools==5.5.0 in /usr/local/lib/python3.7/site-packages (from -r /github/workspace/src/requirements.txt (line 196)) (5.5.0)
+Requirement already satisfied: pluggy==0.13.1 in /usr/local/lib/python3.7/site-packages (from -r /github/workspace/src/requirements.txt (line 198)) (0.13.1)
+Requirement already satisfied: poyo==0.5.0 in /usr/local/lib/python3.7/site-packages (from -r /github/workspace/src/requirements.txt (line 202)) (0.5.0)
+Requirement already satisfied: prometheus-client==0.11.0 in /usr/local/lib/python3.7/site-packages (from -r /github/workspace/src/requirements.txt (line 204)) (0.11.0)
+Requirement already satisfied: prompt-toolkit==3.0.18 in /usr/local/lib/python3.7/site-packages (from -r /github/workspace/src/requirements.txt (line 206)) (3.0.18)
+Requirement already satisfied: ptyprocess==0.7.0 in /usr/local/lib/python3.7/site-packages (from -r /github/workspace/src/requirements.txt (line 210)) (0.7.0)
+Requirement already satisfied: py==1.10.0 in /usr/local/lib/python3.7/site-packages (from -r /github/workspace/src/requirements.txt (line 214)) (1.10.0)
+Requirement already satisfied: pycodestyle==2.7.0 in /usr/local/lib/python3.7/site-packages (from -r /github/workspace/src/requirements.txt (line 216)) (2.7.0)
+Requirement already satisfied: pycparser==2.20 in /usr/local/lib/python3.7/site-packages (from -r /github/workspace/src/requirements.txt (line 218)) (2.20)
+Requirement already satisfied: pyflakes==2.3.1 in /usr/local/lib/python3.7/site-packages (from -r /github/workspace/src/requirements.txt (line 220)) (2.3.1)
+Requirement already satisfied: pygments==2.9.0 in /usr/local/lib/python3.7/site-packages (from -r /github/workspace/src/requirements.txt (line 222)) (2.9.0)
+Requirement already satisfied: pyparsing==2.4.7 in /usr/local/lib/python3.7/site-packages (from -r /github/workspace/src/requirements.txt (line 229)) (2.4.7)
+Requirement already satisfied: pyrsistent==0.17.3 in /usr/local/lib/python3.7/site-packages (from -r /github/workspace/src/requirements.txt (line 231)) (0.17.3)
+Requirement already satisfied: pytest-cov==2.12.1 in /usr/local/lib/python3.7/site-packages (from -r /github/workspace/src/requirements.txt (line 233)) (2.12.1)
+Requirement already satisfied: pytest-mock==1.13.0 in /usr/local/lib/python3.7/site-packages (from -r /github/workspace/src/requirements.txt (line 235)) (1.13.0)
+Requirement already satisfied: pytest==5.4.3 in /usr/local/lib/python3.7/site-packages (from -r /github/workspace/src/requirements.txt (line 237)) (5.4.3)
+Requirement already satisfied: python-dateutil==2.8.1 in /usr/local/lib/python3.7/site-packages (from -r /github/workspace/src/requirements.txt (line 242)) (2.8.1)
+Requirement already satisfied: python-json-logger==0.1.11 in /usr/local/lib/python3.7/site-packages (from -r /github/workspace/src/requirements.txt (line 247)) (0.1.11)
+Requirement already satisfied: python-slugify==5.0.2 in /usr/local/lib/python3.7/site-packages (from -r /github/workspace/src/requirements.txt (line 249)) (5.0.2)
+Requirement already satisfied: pytz==2021.1 in /usr/local/lib/python3.7/site-packages (from -r /github/workspace/src/requirements.txt (line 251)) (2021.1)
+Requirement already satisfied: pyyaml==5.4.1 in /usr/local/lib/python3.7/site-packages (from -r /github/workspace/src/requirements.txt (line 253)) (5.4.1)
+Requirement already satisfied: pyzmq==22.1.0 in /usr/local/lib/python3.7/site-packages (from -r /github/workspace/src/requirements.txt (line 255)) (22.1.0)
+Requirement already satisfied: qtconsole==5.1.0 in /usr/local/lib/python3.7/site-packages (from -r /github/workspace/src/requirements.txt (line 260)) (5.1.0)
+Requirement already satisfied: qtpy==1.9.0 in /usr/local/lib/python3.7/site-packages (from -r /github/workspace/src/requirements.txt (line 262)) (1.9.0)
+Requirement already satisfied: regex==2021.4.4 in /usr/local/lib/python3.7/site-packages (from -r /github/workspace/src/requirements.txt (line 264)) (2021.4.4)
+Requirement already satisfied: requests==2.25.1 in /usr/local/lib/python3.7/site-packages (from -r /github/workspace/src/requirements.txt (line 266)) (2.25.1)
+Requirement already satisfied: send2trash==1.5.0 in /usr/local/lib/python3.7/site-packages (from -r /github/workspace/src/requirements.txt (line 268)) (1.5.0)
+Requirement already satisfied: six==1.16.0 in /usr/local/lib/python3.7/site-packages (from -r /github/workspace/src/requirements.txt (line 270)) (1.16.0)
+Requirement already satisfied: smmap==4.0.0 in /usr/local/lib/python3.7/site-packages (from -r /github/workspace/src/requirements.txt (line 277)) (4.0.0)
+Requirement already satisfied: terminado==0.10.1 in /usr/local/lib/python3.7/site-packages (from -r /github/workspace/src/requirements.txt (line 279)) (0.10.1)
+Requirement already satisfied: testpath==0.5.0 in /usr/local/lib/python3.7/site-packages (from -r /github/workspace/src/requirements.txt (line 281)) (0.5.0)
+Requirement already satisfied: text-unidecode==1.3 in /usr/local/lib/python3.7/site-packages (from -r /github/workspace/src/requirements.txt (line 283)) (1.3)
+Requirement already satisfied: toml==0.10.2 in /usr/local/lib/python3.7/site-packages (from -r /github/workspace/src/requirements.txt (line 285)) (0.10.2)
+Requirement already satisfied: toposort==1.6 in /usr/local/lib/python3.7/site-packages (from -r /github/workspace/src/requirements.txt (line 290)) (1.6)
+Requirement already satisfied: tornado==6.1 in /usr/local/lib/python3.7/site-packages (from -r /github/workspace/src/requirements.txt (line 292)) (6.1)
+Requirement already satisfied: traitlets==5.0.5 in /usr/local/lib/python3.7/site-packages (from -r /github/workspace/src/requirements.txt (line 298)) (5.0.5)
+Requirement already satisfied: typed-ast==1.4.3 in /usr/local/lib/python3.7/site-packages (from -r /github/workspace/src/requirements.txt (line 311)) (1.4.3)
+Requirement already satisfied: typing-extensions==3.10.0.0 in /usr/local/lib/python3.7/site-packages (from -r /github/workspace/src/requirements.txt (line 313)) (3.10.0.0)
+Requirement already satisfied: urllib3==1.26.5 in /usr/local/lib/python3.7/site-packages (from -r /github/workspace/src/requirements.txt (line 318)) (1.26.5)
+Requirement already satisfied: wcwidth==0.2.5 in /usr/local/lib/python3.7/site-packages (from -r /github/workspace/src/requirements.txt (line 320)) (0.2.5)
+Requirement already satisfied: webencodings==0.5.1 in /usr/local/lib/python3.7/site-packages (from -r /github/workspace/src/requirements.txt (line 324)) (0.5.1)
+Requirement already satisfied: wheel==0.32.2 in /usr/local/lib/python3.7/site-packages (from -r /github/workspace/src/requirements.txt (line 326)) (0.32.2)
+Requirement already satisfied: widgetsnbextension==3.5.1 in /usr/local/lib/python3.7/site-packages (from -r /github/workspace/src/requirements.txt (line 328)) (3.5.1)
+Requirement already satisfied: zipp==3.4.1 in /usr/local/lib/python3.7/site-packages (from -r /github/workspace/src/requirements.txt (line 330)) (3.4.1)
+Requirement already satisfied: setuptools in /usr/local/lib/python3.7/site-packages (from anyconfig==0.10.1->-r /github/workspace/src/requirements.txt (line 7)) (57.0.0)
+Requirement already satisfied: pip>=20.1 in /usr/local/lib/python3.7/site-packages (from pip-tools==5.5.0->-r /github/workspace/src/requirements.txt (line 196)) (21.1.2)
+WARNING: Running pip as root will break packages and permissions. You should install packages reliably by using venv: https://pip.pypa.io/warnings/venv
+/usr/local/bin/python -m ipykernel install --user --name=kedro_pandas_iris
+Installed kernelspec kedro_pandas_iris in /github/home/.local/share/jupyter/kernels/kedro_pandas_iris
+sphinx-apidoc --module-first -o docs/source /github/workspace/src/kedro_pandas_iris
+Creating file docs/source/kedro_pandas_iris.rst.
+Creating file docs/source/kedro_pandas_iris.pipelines.rst.
+Creating file docs/source/kedro_pandas_iris.pipelines.data_engineering.rst.
+Creating file docs/source/kedro_pandas_iris.pipelines.data_science.rst.
+Creating file docs/source/modules.rst.
+sphinx-build -M html docs/source docs/build -a
+Running Sphinx v3.4.3
+making output directory... done
+/usr/local/lib/python3.7/site-packages/sphinx/jinja2glue.py:106: DeprecationWarning: 'contextfunction' is renamed to 'pass_context', the old name will be removed in Jinja 3.1.
+  def warning(context: Dict, message: str, *args: Any, **kwargs: Any) -> str:
+/usr/local/lib/python3.7/site-packages/nbconvert/exporters/html.py:99: DeprecationWarning: 'contextfilter' is renamed to 'pass_context', the old name will be removed in Jinja 3.1.
+  @contextfilter
+/github/workspace/docs/source/conf.py:254: RemovedInSphinx40Warning: The app.add_stylesheet() is deprecated. Please use app.add_css_file() instead.
+  app.add_stylesheet(stylesheet)
+WARNING: html_static_path entry '_static' does not exist
+building [mo]: all of 0 po files
+building [html]: all source files
+updating environment: [new config] 6 added, 0 changed, 0 removed
+reading sources... [ 16%] index
+reading sources... [ 33%] kedro_pandas_iris
+reading sources... [ 50%] kedro_pandas_iris.pipelines
+reading sources... [ 66%] kedro_pandas_iris.pipelines.data_engineering
+reading sources... [ 83%] kedro_pandas_iris.pipelines.data_science
+reading sources... [100%] modules
+
+/usr/local/lib/python3.7/site-packages/sphinx/jinja2glue.py:184: DeprecationWarning: 'contextfunction' is renamed to 'pass_context', the old name will be removed in Jinja 3.1.
+  self.environment.globals['debug'] = contextfunction(pformat)
+/usr/local/lib/python3.7/site-packages/sphinx/jinja2glue.py:186: DeprecationWarning: 'contextfunction' is renamed to 'pass_context', the old name will be removed in Jinja 3.1.
+  self.environment.globals['accesskey'] = contextfunction(accesskey)
+/github/workspace/docs/source/index.rst:6: WARNING: Title underline too short.
+
+Welcome to project kedro_pandas_iris's API docs!
+=============================================
+looking for now-outdated files... none found
+pickling environment... done
+checking consistency... done
+preparing documents... done
+writing output... [ 16%] index
+writing output... [ 33%] kedro_pandas_iris
+writing output... [ 50%] kedro_pandas_iris.pipelines
+writing output... [ 66%] kedro_pandas_iris.pipelines.data_engineering
+writing output... [ 83%] kedro_pandas_iris.pipelines.data_science
+writing output... [100%] modules
+
+generating indices... genindex py-modindex done
+highlighting module code... [ 16%] kedro_pandas_iris.hooks
+highlighting module code... [ 33%] kedro_pandas_iris.pipeline_registry
+highlighting module code... [ 50%] kedro_pandas_iris.pipelines.data_engineering.nodes
+highlighting module code... [ 66%] kedro_pandas_iris.pipelines.data_engineering.pipeline
+highlighting module code... [ 83%] kedro_pandas_iris.pipelines.data_science.nodes
+highlighting module code... [100%] kedro_pandas_iris.pipelines.data_science.pipeline
+
+writing additional pages... search done
+copying static files... done
+copying extra files... done
+dumping search index in English (code: en)... done
+dumping object inventory... done
+build succeeded, 2 warnings.
+
+The HTML pages are in docs/build/html.
