@@ -1,0 +1,50 @@
+kedro\_pandas\_iris package
+===========================
+
+.. automodule:: kedro_pandas_iris
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+Subpackages
+-----------
+
+.. toctree::
+   :maxdepth: 4
+
+   kedro_pandas_iris.pipelines
+
+Submodules
+----------
+
+kedro\_pandas\_iris.cli module
+------------------------------
+
+.. automodule:: kedro_pandas_iris.cli
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+kedro\_pandas\_iris.hooks module
+--------------------------------
+
+.. automodule:: kedro_pandas_iris.hooks
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+kedro\_pandas\_iris.pipeline\_registry module
+---------------------------------------------
+
+.. automodule:: kedro_pandas_iris.pipeline_registry
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+kedro\_pandas\_iris.settings module
+-----------------------------------
+
+.. automodule:: kedro_pandas_iris.settings
+   :members:
+   :undoc-members:
+   :show-inheritance:
