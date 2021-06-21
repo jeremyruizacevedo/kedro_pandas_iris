@@ -1,6 +1,9 @@
 name: kedro-action
 
-on: [push]
+on:
+  push:
+    branches:
+      - branch_tests
 
 jobs:
   kedro:
