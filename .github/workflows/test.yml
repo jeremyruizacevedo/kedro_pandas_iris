@@ -9,11 +9,11 @@ jobs:
   kedro:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@main
+    - uses: actions/checkout@branch_tests
     - name: Kedro
       uses: ./.github/workflows/actions
       with:
-        GITHUB_PAT: ${{ secrets.MY_SECRET_TOKEN }} #  required for push to kedro-action branch
+        GITHUB_PAT: ${{ secrets.MY_SECRET_TOKEN }} # required for push to kedro-action branch
         should_lint: false
         should_test: true
         should_build_docs: false
