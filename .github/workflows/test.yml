@@ -3,7 +3,7 @@ name: kedro-action
 on:
   push:
     branches:
-      - own_workflow
+      - branch_tests
 
 jobs:
   kedro:
