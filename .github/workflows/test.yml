@@ -9,7 +9,7 @@ jobs:
   kedro:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@branch_tests
+    - uses: actions/checkout@v2
     - name: Kedro
       uses: ./.github/workflows/actions
       with:
