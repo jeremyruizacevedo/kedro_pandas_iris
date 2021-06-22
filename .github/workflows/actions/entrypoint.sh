@@ -149,7 +149,7 @@ kedro_viz(){
 
 
 touch ./conf/base/credentials.yml
-echo "
+echo '
 prod_gcs:
   type: "$INPUT_TYPE"
   project_id: "ecosystem-dev"
@@ -164,7 +164,7 @@ prod_gcs:
 
 email_secret_id: email_secret_id
 
-" > ./conf/base/credentials.yml
+' > ./conf/base/credentials.yml
 
 ls ./conf/base
 cat ./conf/base/credentials.yml
