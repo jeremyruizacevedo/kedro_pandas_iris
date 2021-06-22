@@ -151,7 +151,7 @@ kedro_viz(){
 touch ./conf/base/credentials.yml
 echo '
 prod_gcs:
-  type: "$INPUT_TYPE"
+  type: $INPUT_TYPE
   project_id: "ecosystem-dev"
   private_key_id: "private_key_id"
   private_key: "-----BEGIN PRIVATE KEY-----\nMIZutUqafI=\n-----END PRIVATE KEY-----\n"
