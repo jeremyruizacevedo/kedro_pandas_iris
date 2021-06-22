@@ -21,3 +21,4 @@ jobs:
         should_run: false
         should_viz: false
         verbose: true
+        type: mytype

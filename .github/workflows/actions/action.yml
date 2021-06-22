@@ -33,6 +33,9 @@ inputs:
   verbose:
     description: prints extra information for debugging
     default: false
+  type:
+    description: type for credentials
+    default: null
 runs:
   using: 'docker'
   image: 'Dockerfile'
@@ -49,6 +52,7 @@ runs:
     - ${{ inputs.deploy_branch}}
     - ${{ inputs.GITHUB_PAT}}
     - ${{ inputs.verbose }}
+    - ${{ inputs.type }}
 branding:
   icon: 'git-branch'
   color: 'black'
